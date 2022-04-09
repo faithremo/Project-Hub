@@ -1,4 +1,10 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
+from django.contrib.auth.models import User
+
+
+
+
 
 # Create your models here.
 class Post(models.Model):
@@ -6,7 +12,7 @@ class Post(models.Model):
     description = models.TextField(max_length=300)
     picture= CloudinaryField('picture')
     projecturl= models.URLField(max_length=200)
-    user = models.ForeignKey(Profile, on_delete=models.CASCADE, default='', null=True ,related_name='author')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, default='', null=True ,related_name='author')
     posted= models.DateField(auto_now_add=True )
     def save_posts(self):
         self.user
