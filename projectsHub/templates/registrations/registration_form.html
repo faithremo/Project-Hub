@@ -1,0 +1,8 @@
+{%extends "registration/base.html"%} {% load bootstrap4 %} {% block content %}
+{% if form.errors %}
+Some Information Might be Incorrect
+
+{% endif %}
+Sign Up
+{% csrf_token %} {% bootstrap_form form %}
+{% endblock %}
