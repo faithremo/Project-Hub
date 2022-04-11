@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="container-fluid">
-  <h2>ProjectsHub</h2>
+  <h3><i>ProjectsHub</i></h3>
   <div class="container">
     <div class="row d-flex">
       {%for project in projects%}
@@ -17,7 +17,7 @@
             <img src="{{project.image.url}}" alt="">
             <p class="card-text">{{ project.posted | timesince }} <em>By: </em> <strong>{{ project.user.user.username }}</strong></p>
           </div>
-          <a class="btn btn-primary" href="{% url 'project' project.id %}">View Details</a>
+          <a class="btn btn-primary" href="{% url 'project' project.id %}">View Project</a>
         </div>
         
 
