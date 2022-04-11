@@ -8,7 +8,7 @@ Faith Nduta
 11/4/2022
 
 ## Project Image
-
+/home/faithremo/Pictures/Screenshot from 2022-04-12 01-40-41.png
 
 ## Desctiption
 This is a django application that allows users to view other peoples' projects and post theirs. It allows a user log in and out.It also allow a user to add,rate in a scale of 1-10 for projects.
