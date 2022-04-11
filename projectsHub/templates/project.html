@@ -1,0 +1,55 @@
+{% extends  'base.html' %}
+{% load ratings %}
+
+
+{%load bootstrap4%}
+
+{% load static %}
+
+
+{%block content %}
+<div class="container-fluid">
+    <div class="row">
+
+<div class="col-md-2"></div>
+        <div class="col-md-8" style="margin-top:30px">
+            <img src="{{ project.landingpage.url }}" alt="" width="80%" height="500px">
+            <hr>
+            <p>{{ project.description }}</p>
+            <a href="{{ project.link }}" target="_blank" class="btn btn-outline-primary">View webiste</a>
+
+            <p>Rate Project</p>
+
+            <hr>
+            <div class="mt-2">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h6>Design Rating</h6>
+                    {% ratings project %}
+                  </div>
+                  <div class="col-md-3">
+                    <h6>Usability Rating</h6>
+                    {% ratings project %}
+                  </div>
+                  <div class="col-md-3">
+                    <h6>Content Rating</h6>
+                    {% ratings project %}
+                  </div>
+                </div>
+                <hr>
+
+        </div>
+        <div class="col-md-2">
+         
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+{%endblock %}
