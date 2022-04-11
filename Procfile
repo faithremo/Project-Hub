@@ -1,1 +1,1 @@
-python-3.2.10
+web: gunicorn Insta.wsgi --log-file -
