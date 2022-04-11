@@ -21,6 +21,9 @@ In order to run the application, the following installations are required:
  4. virtualenv 
  5. requirements.txt
 
+## Repository
+https://github.com/faithremo/Project-Hub.git
+
 
 
 
