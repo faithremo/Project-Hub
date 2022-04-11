@@ -31,6 +31,20 @@ https://github.com/faithremo/Project-Hub.git
 4. css
 5. SQLAlchemy
 
+## Dependencies
+Psycopg2
+Django-heroku
+Django-urls
+Cloudinary
+Django-registration
+Python-decouple
+Pillow
+Django
+Django-bootstrap
+Whitenoise
+Gunicorn
+
+
 
 
 
