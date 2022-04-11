@@ -32,17 +32,17 @@ https://github.com/faithremo/Project-Hub.git
 5. SQLAlchemy
 
 ## Dependencies
-Psycopg2
-Django-heroku
-Django-urls
-Cloudinary
-Django-registration
-Python-decouple
-Pillow
-Django
-Django-bootstrap
-Whitenoise
-Gunicorn
+1. Psycopg2
+2. Django-heroku
+3. Django-urls
+4. Cloudinary
+5. Django-registration
+6. Python-decouple
+7. Pillow
+8. Django
+9. Django-bootstrap
+11. Whitenoise
+12. Gunicorn
 
 ## Bugs
 There are no known bugs.
