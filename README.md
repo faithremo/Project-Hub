@@ -44,6 +44,17 @@ Django-bootstrap
 Whitenoise
 Gunicorn
 
+## Bugs
+There are no known bugs.
+
+## Support and contact details
+email: faithmakumi@gmail.com
+
+## License
+Copyright (c) 2021 Faith Nduta
+
+
+
 
 
 
